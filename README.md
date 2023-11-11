@@ -28,7 +28,13 @@ In an era where network responsiveness is key, traditional DNS lookup tools ofte
 ### Basic DNS Query
 
 ```bash
-godig get -t A www.example.com
+godig query a drod.dev
+Domain                         Class  TTL      Type     IP Address
+-----------------------------------------------------------------------
+drod.dev                       IN     300      A        185.199.108.153
+drod.dev                       IN     300      A        185.199.109.153
+drod.dev                       IN     300      A        185.199.110.153
+drod.dev                       IN     300      A        185.199.111.153
 ```
 This retrieves the A record for www.example.com.
 

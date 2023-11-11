@@ -39,10 +39,9 @@ drod.dev                       IN     300      A        185.199.111.153
 This retrieves the A record for www.example.com.
 
 ## Advanced Query Options
-[Examples of advanced use cases]
+::TODO
 
 ## Contributing
-
+::TODO
 ## License
-
-[Details about the licensing]
+::TODO
